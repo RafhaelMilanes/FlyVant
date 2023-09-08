@@ -106,6 +106,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 hr {
@@ -2793,6 +2794,10 @@ textarea.form-control-lg {
 }
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
   color: #a16468;
+}
+.form-check-label {
+  color: white;
+  display: flex;
 }
 
 .form-check-inline .form-check-input ~ .invalid-feedback {
